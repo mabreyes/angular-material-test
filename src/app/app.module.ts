@@ -5,10 +5,12 @@ import { HttpModule } from '@angular/http';
 import { CustomMaterialComponent } from './custom-material.component';
 
 import { AppComponent } from './app.component';
+import { GetInputComponent } from './get-input.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    GetInputComponent
   ],
   imports: [
     BrowserModule,

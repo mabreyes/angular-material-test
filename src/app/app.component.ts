@@ -9,5 +9,6 @@ import { CustomMaterialComponent } from './custom-material.component';
 })
 
 export class AppComponent {
-  title = 'app works!';
+  title = 'Welcome to the app!';
+  subtitle = 'Let us see what happens.';
 }
