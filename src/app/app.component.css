@@ -1,0 +1,6 @@
+.main-card { margin: 50px auto; width: 400px;}
+
+.card-image {
+  background-image: url('https://pbs.twimg.com/profile_images/839777576360910848/OIxV7Fel_400x400.jpg');
+  background-size: cover;
+}
