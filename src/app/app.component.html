@@ -1,22 +1,23 @@
 <md-card-title class="main-title">{{title}}</md-card-title>
 <md-card-subtitle class="main-title"><span>{{subtitle}}</span></md-card-subtitle>
-<input-data></input-data>
-<md-card class="main-card">
-  <md-card-header>
-    <div md-card-avatar class="card-image"></div>
-    <md-card-title>Marc Reyes</md-card-title>
-    <md-card-subtitle>Web Developer</md-card-subtitle>
-  </md-card-header>
-  <img md-card-image src="https://pbs.twimg.com/profile_images/839777576360910848/OIxV7Fel_400x400.jpg">
-  <md-card-content>
-    <p>
-      The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan.
-      A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was originally
-      bred for hunting.
-    </p>
-  </md-card-content>
-  <md-card-actions>
-    <button md-button>LIKE</button>
-    <button md-button>SHARE</button>
-  </md-card-actions>
+<md-card class="card-input">
+  <md-card-title>Card Information</md-card-title>
+  <md-card-subtitle>Input the fields below and see the data change on the card/s beside.</md-card-subtitle>
+      <md-input-container class="input-data">
+        <input mdInput placeholder="Name" value="{{data.name}}">
+      </md-input-container>
+      <md-input-container class="input-data">
+        <input mdInput placeholder="Job Title" value="{{data.jobTitle}}">
+      </md-input-container>
+      <md-input-container class="input-data">
+        <input mdInput placeholder="Avatar Image URL" value="{{data.avatarImg}}">
+      </md-input-container>
+      <md-input-container class="input-data">
+        <input mdInput placeholder="Post Image URL" value="{{data.postImg}}">
+      </md-input-container>
+      <md-input-container>
+        <textarea mdInput placeholder="Description" class="input-data" value="{{data.desc}}"></textarea>
+      </md-input-container>
+      <button md-raised-button>Save</button>
 </md-card>
+<input-data></input-data>

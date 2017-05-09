@@ -1,8 +1,5 @@
-.main-card { margin: 50px auto ; width: 400px; float:left; left: 500;}
+.card-input { margin: 50px; width: 400px; float:left; z-index: 1;}
+.input-data { width: 400px; }
+.icon { color: #000; }
 .main-title { font-size: 2em; margin: 50px 50px auto; font-family: Roboto;}
 .main-title span { font-size: 0.65em; }
-
-.card-image {
-  background-image: url('https://pbs.twimg.com/profile_images/839777576360910848/OIxV7Fel_400x400.jpg');
-  background-size: cover;
-}

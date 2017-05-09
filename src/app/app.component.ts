@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
+import { MockData } from './mock-card-data';
 
-import { CustomMaterialComponent } from './custom-material.component';
 
 @Component({
   selector: 'app-root',
@@ -8,7 +8,8 @@ import { CustomMaterialComponent } from './custom-material.component';
   styleUrls: ['./app.component.css']
 })
 
-export class AppComponent {
-  title = 'Welcome to the app!';
-  subtitle = 'Let us see what happens.';
+export class AppComponent{
+  title = 'Welcome to this simple input app!';
+  subtitle = 'Customize the content of the card by entering your data below.';
+  data = MockData;
 }

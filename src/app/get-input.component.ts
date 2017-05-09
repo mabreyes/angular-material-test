@@ -1,4 +1,7 @@
 import { Component } from '@angular/core';
+import { AppComponent } from './app.component';
+
+import { CustomMaterialComponent } from './custom-material.component';
 
 @Component({
   selector: 'input-data',
@@ -6,6 +9,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./get-input.component.css']
 })
 
-export class GetInputComponent{
+export class GetInputComponent {
 
 }
